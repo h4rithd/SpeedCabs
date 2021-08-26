@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/nav_profile"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/nav_car"
+            android:title="Avalabel Vehicle" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/nav_oder"
+            android:title="Book Vehicle" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/nav_package"
+            android:title="Special Package" />
+    </group>
+
+    <item android:title="Setting">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/log_out"
+                android:title="Log Out" />
+        </menu>
+    </item>
+
+</menu>
